@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int area;
+    int sidel;
+    cout << "Enter a side length for the square: ";
+    cin >> sidel;
+    area = sidel*sidel;
+    cout <<"The area of the square is: " << area;
+    return 0;
+}
