@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+
+    int guess = 0;
+
+    while (guess != 2) {
+        cout << "Guess a number from 1 to 5: ";
+        cin >> guess;
+
+        switch (guess) {
+        case 1:
+            cout << "Sorry, you guessed a bit too low" << endl;
+            break;
+        case 2:
+            cout << "Congratulations! You guessed the word correctly!" << endl;
+            break;
+        case 3:
+            cout << "Sorry, you guessed a bit too high" << endl;
+            break;
+        case 4:
+            cout << "Your guess is a bit cold" << endl;
+            break;
+        case 5:
+            cout << "Unfortunately your guess was far off" << endl;
+            break;
+        default:
+            cout << "That wasn't a number from 1 to 5!" << endl;
+            break;
+        }
+    }
+
+    return 0;
+}
