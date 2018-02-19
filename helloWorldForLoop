@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    
+    for (int helloWorldCount = 1; helloWorldCount <=10; helloWorldCount++) 
+    {
+        cout << "Hello World!" << endl;
+    }
+
+    return 0;
+}
